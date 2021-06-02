@@ -329,6 +329,21 @@
 7:50 Copying styles you will use over and over again on a seperate sheet
 - Look through the layout and see what sytles are duplicated
 
+### column ( icon and h3  then paragraph next row)
+- 1st row
+  - add a table
+  - add a <td> for the <img> and another for the text
+  - edit the <td> inline code for each
+    - copy any inline code that is duplicate from earlier in the project
+    - add appropiate width for each
+- 2nd row
+  - copy the first row
+  - paste the 2nd row below the first
+  - edit changes
+    - comments
+    - <img>
+    - <p>
+    - <h2>
 
 
 
@@ -360,6 +375,8 @@
   - copy the inline code from another table
   - add it the new table 
   - edit inline code
+    - Change <table> class name 
+      - <table class="class-name">
     - edit color of table <table>
     - background: white;
     - add white even if background normally white
@@ -386,7 +403,7 @@
 Copy the whole column including the comments
   - usually <table> to </table>
 Paste it as many times as need for duplicate columns(if needed)
-Change column <table class="class-name">
+
 
 
 
@@ -427,3 +444,7 @@ ___________________________________________________
   - capilize = capitalize each word in the text
   - Uppercase = make each word Uppercase
 - Negative margin can be used to exapand a box similiar to padding
+- Easily copy the sections of code. Use the arrow to condense the code then copy it
+- If you have a paddding error on multiple <table> 
+  - Add padding 0 so you can access the new padding
+  - Start editing the new padding

@@ -6,7 +6,9 @@
 </h3>
 
 <h5 style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: #333;; padding:0 0 0 15px; font-weight:600; text-transform:uppercase; font-size:14px; margin:0;">
+
 <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: #7f8887; font-weight:400;  font-size:14px; line-height:1.8">Computer manufacturer Lenovo is getting flak....</p>
 
 <a href="#" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: #2792ec;  text-decoration:none; font-weight:600;  font-size:14px"></a>
 
+<table  class="one-slution-table"  width= "100%" align="left" cellpadding="0" border="0" style=" background:white; margin-left:-2px; padding:25px 0 75px;  margin-right:-2px; margin-bottom:-8px;">
