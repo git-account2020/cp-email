@@ -345,6 +345,15 @@
     - <p>
     - <h2>
 
+### Footer Row with header and social media 
+- tr>td>table
+- add styling to the table
+- inside the able add tr>td
+- inside the <td> add the header
+- Create and other tr>td
+- Add another <table>
+- inside the <table> add tr>td
+- Each icon will be inside <td>
 
 
 
