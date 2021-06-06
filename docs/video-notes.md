@@ -354,6 +354,8 @@
 - Add another <table>
 - inside the <table> add tr>td
 - Each icon will be inside <td>
+- alin each <td> if needed
+- remove any extra styles inside the <table>
 
 
 
