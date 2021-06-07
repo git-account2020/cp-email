@@ -354,10 +354,23 @@
 - Add another <table>
 - inside the <table> add tr>td
 - Each icon will be inside <td>
-- alin each <td> if needed
-- remove any extra styles inside the <table>
 
+### Cleaning the code for responsive styles
+0:20 edit the class names for each table 
+1:50 If you don't have a parent <table> you can add a class name to a <td>
+- Then use that class name as a template for a decendant <table>
+  - Use .column-left, middle, right  for main tables class names
+6:00 If you have multiple rows and mutliple columns
+- For each row add .column-left,middle, right 
+- That basic setup is 
+  - .table-name-table
+    - .column-left
+    - .column-middle
+    - .column-right
+- If you have an social media only column/row
+  - .icon-table
 
+  
 
 ### Note Taking steps
 - Listen to video
