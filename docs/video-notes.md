@@ -467,6 +467,11 @@
   - Change dropdown to "Direct links"
   - Copy links
 - Add links to file in Vs code
+  - this is so you can copy them into your code later
+- Update links in your code
+  - ctrl+f 
+    - <img
+  - go through each img and replace them with the correct image link address
 
 
 
