@@ -355,7 +355,9 @@
 - inside the <table> add tr>td
 - Each icon will be inside <td>
 
+
 ### Cleaning the code for responsive styles
+#### Choosing class names
 0:20 edit the class names for each table 
 1:50 If you don't have a parent <table> you can add a class name to a <td>
 - Then use that class name as a template for a decendant <table>
@@ -370,8 +372,105 @@
 - If you have an social media only column/row
   - .icon-table
 
-  
+### Make Header Responsive
+- add the code below the <link>
+  <style>
+    @media only screen and (min-width: 960px){
+    
+    }
+    
+    }
+    @media only screen and (max-width: 960px){
+      
+    }
+    @media only screen and (max-width: 600px){
+    
+    }
 
+  </style>
+
+- add comments above each media section
+  - /* desktop */
+  - /* mid sizes */
+  - /* mobile */
+- desktop
+  - set .container width to 960px;
+- mobile make each class width:100%;
+  - .container
+
+### lets you row and advance-table responsive
+- How to find what section you are on quickly
+  - Inspect the element
+  - look at the code for a class name
+- Increase stand alone image to full screen on mobile
+  - give image a class name
+    - .img_head
+  - edit mobile code 
+    - add width:100%; 
+- Add code in order of how they come up as much as possible
+- Mobile for three column row how to break it into two sections with one full section underneath
+  - add to mobile section of css
+    - .classNameofRow .classNameofColumn1 {
+      width:50%;
+    }
+    - .classNameofRow .classNameofColumn2 {
+      width:50%;
+    }
+    - .classNameofRow .classNameofColumn3 {
+      width:100%;
+    }
+- Mobile for two column row each take up full screen
+  - add to mobile section of css
+    - .classNameofTable .classNameofLeftColumn{
+      width:100%;
+    }
+    - .classNameofTable .classNameofRightColumn{
+      width:100%;
+    }
+  - Center any image/icons that might be outside the columns
+    - add code to each icon <td>
+      - .left-iconName
+    - add to mobile section of css
+      - .classNameofTable .classNameofColumn .classNameofTD {
+      text-align:center;
+      width:100%;
+    }
+
+
+### one solution table and join together tabel responsive 
+- Fix image size that on desktop
+  - Find the width of the original image
+  - make the max width = equal to the the max-width of the original image
+  - .tableName {
+    text-align:center
+  }
+- Make three column  into mobile one coumn
+  - add css to mobile
+    - .tableName .columnName{
+      width 100%;
+    }
+- Make the padding the same for all desktop
+  - Add padding 50px left/right to all the major tables so they have a uniform look
+
+### Optimize images
+- Compress images
+  - navigate to tinypng.com
+  - Drop in images
+  - download all
+  - open folder copy all
+- Create a production folder
+  - projectfile\img\production
+  -  add copied compressed files there
+- Upload to a server
+  - Postimages.org
+- Copy the image links
+  - Change dropdown to "Direct links"
+  - Copy links
+- Add links to file in Vs code
+
+
+
+_________________________________________________
 ### Note Taking steps
 - Listen to video
 - Make a time stamp at each new point
@@ -389,7 +488,8 @@
   - why doesn't chrome developer tools let me edit the my code
   - what is line-height;
   - Use table rows tr when wanting content to go down & use tables when wanting columns left-right.  You get max control over items when using tables. Awesome!!!
-
+  - Why doesn't the text wrap in the advanced-table when in moble view
+  - why doesn't padding work on .advancted table
 ### Learned
 - Start a new row
   - tr>td>table
@@ -427,9 +527,23 @@
 Copy the whole column including the comments
   - usually <table> to </table>
 Paste it as many times as need for duplicate columns(if needed)
+If style is being overwritten 
+  - use !important
 
-
-
+### Troubleshooting
+- Nothing Changes
+    - Spelling
+    - semi-colons
+    - Make sure you are in the right viewport for the rule
+      - if its a rule for desktop make sure you are in the desktop rule
+    - Syntax
+      - Use reference guide to make sure you typing the rule correctly
+    - Add a test rule 
+      - like background-red
+    - Inspect element
+      - make sure it is not being overwritten
+        - if so use !important
+    
 
 
 
