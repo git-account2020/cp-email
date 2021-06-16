@@ -534,6 +534,11 @@ Copy the whole column including the comments
 Paste it as many times as need for duplicate columns(if needed)
 If style is being overwritten 
   - use !important
+Remove spacing between table rows
+  - #table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
 ### Troubleshooting
 - Nothing Changes
