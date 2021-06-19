@@ -473,6 +473,13 @@
     - <img
   - go through each img and replace them with the correct image link address
 
+### Sending our email to gmail
+- Go to putsmail.com
+- sign in
+- Click create new email
+- Subject line
+  - "testing email"
+- Add html into body html section
 
 
 _________________________________________________
